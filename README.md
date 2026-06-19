@@ -69,6 +69,6 @@ positive congruence, and the open `.lam` core — see its `SUMMARY.md` and `REVE
 
 ```
 lake build
-# or, against any Lean 4 v4.29.1 toolchain:
+# or, against any Lean 4 v4.30.0 toolchain:
 lake env lean ReflBeta.lean
 ```
