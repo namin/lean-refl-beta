@@ -20,7 +20,8 @@ with no meta-level step — so it keeps running where the redex `(λx.b) a` cann
 
 ## What is proved (`ReflBeta.lean`)
 
-All `sorry`-free; axioms ⊆ `{propext, Quot.sound}`.
+All `sorry`-free; axioms ⊆ `{propext, Quot.sound}` — machine-pinned in `Audit.lean`
+(`#guard_msgs in #print axioms` per theorem; the build fails if a footprint changes).
 
 | theorem | statement |
 |---|---|

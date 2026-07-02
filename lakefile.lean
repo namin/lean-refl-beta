@@ -9,3 +9,7 @@ package «lean-refl-beta» where
 @[default_target]
 lean_lib «ReflBeta» where
   srcDir := "."
+
+@[default_target]
+lean_lib «Audit» where
+  srcDir := "."
